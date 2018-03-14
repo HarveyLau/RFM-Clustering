@@ -15,7 +15,7 @@ H = [u'重要价值会员',u'潜力会员',u'重要深耕会员',u'新会员',u'
 def comput(max,a,b,c):
     return (max-a)*W[0] + b*W[1] + c*W[2]
 def comput_score(max,min,a,flag):
-    if flag:
+    if flag: 
        return (max - a) / (max - min)
     else:
        return (a - min) / (max - min)
