@@ -59,7 +59,7 @@
 K-means算法是很典型的基于距离的聚类算法，采用距离作为相似性的评价指标，即认为两个对象的距离越近，其相似度就越大。该算法认为簇是由距离靠近的对象组成的，因此把得到紧凑且独立的簇作为最终目标。
 * 现在使用这三个因子作为本次建模的特征值（R、F、M），每个因子有两个变化，高与低，由此确认K的值：
 
-![K的取值]/Users/liuzhanheng/Documents/Datas/GitData/RFM-Clusting/WX20180314-171658@2x.png
+![K的取值](/Users/liuzhanheng/Documents/Datas/GitData/RFM-Clusting/WX20180314-171658@2x.png)
 
 * 应用于每类价值的会员：
 
