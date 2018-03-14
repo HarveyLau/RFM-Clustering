@@ -1,5 +1,5 @@
 # RFM-Clustering 
-## 利用RFM模型建模，并通过聚类分析、分类，分别算出8中不同的价值会员
+* 利用RFM模型建模，并通过聚类分析、分类，分别算出8中不同的价值会员
 
 
 ## RFM模型构建会员价值标签
@@ -30,7 +30,7 @@
 
 * 上表所示的两两比较矩阵的一致性比例C。 R < 0.1, 表明该判断矩阵的一致性可以接受。由上表得出RFM各指标相对权重为
 
-	[WR,WF,WM]=[0.221,0.341,0.439]
+![w](https://github.com/HarveyLau/RFM-Clustering/blob/master/img-storage/w%5E3.png)
 
 * 其中M的权重最大,即专家们认为客户交费金额的高低是影响顾客价值高低的最主要因素。
 
@@ -42,6 +42,7 @@
 2. 将RFM中的三个指标，利用离差标准化将其数据标准化；
 
 ![FM](https://github.com/HarveyLau/RFM-Clustering/blob/master/img-storage/FM_score.png)
+
 ![R](https://github.com/HarveyLau/RFM-Clustering/blob/master/img-storage/R_score.png)
 
 3. 应用AHP层次分析法来获取权重，并将各个指标加权；运用上述专家评定的评分矩阵：
