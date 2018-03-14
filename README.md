@@ -41,8 +41,8 @@
 1. 读取数据库中的数据（12个月），并清洗数据；
 2. 将RFM中的三个指标，利用离差标准化将其数据标准化；
 
-![FM](/Users/liuzhanheng/Documents/GitHub/RFM-Clustering/img-storage/FM_score.png)
-![FM](/Users/liuzhanheng/Documents/GitHub/RFM-Clustering/img-storage/R_score.png)
+![FM](https://github.com/HarveyLau/RFM-Clustering/blob/master/img-storage/FM_score.png)
+![R](https://github.com/HarveyLau/RFM-Clustering/blob/master/img-storage/R_score.png)
 
 3. 应用AHP层次分析法来获取权重，并将各个指标加权；运用上述专家评定的评分矩阵：
 4. 其中M的权重最大，即专家认为会员交易金额的高低是影响会员价值高低的最重要因素。
