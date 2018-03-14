@@ -59,7 +59,7 @@
 K-means算法是很典型的基于距离的聚类算法，采用距离作为相似性的评价指标，即认为两个对象的距离越近，其相似度就越大。该算法认为簇是由距离靠近的对象组成的，因此把得到紧凑且独立的簇作为最终目标。
 * 现在使用这三个因子作为本次建模的特征值（R、F、M），每个因子有两个变化，高与低，由此确认K的值：
 
-![K的取值](/Users/liuzhanheng/Documents/Datas/GitData/RFM-Clusting/WX20180314-171658@2x.png)
+![K的取值](/Users/liuzhanheng/Documents/GitHub/img-storage/k=2^3.png)
 
 * 应用于每类价值的会员：
 
@@ -76,7 +76,7 @@ K-means算法是很典型的基于距离的聚类算法，采用距离作为相�
 * 算法的实现K-means in Python
 在Python或Spark Milb包中，已经有对K-means、K-means++成熟的集成，详细的聚类算法讲解，我将放在文献和附录里面。而这里我们使用的距离公式采用默认欧的几何公式来推算：
 
-	$$Dis=\sqrt{(X_1-X_2)^2+(Y_1+Y_2)^2+...+(N_1-N_2)^2}$$
+![DIS](/Users/liuzhanheng/Documents/GitHub/img-storage/dis.png)
 
 
 
